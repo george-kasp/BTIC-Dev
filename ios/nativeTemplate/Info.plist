@@ -39,7 +39,7 @@
       <false/>
     </dict>
     <key>NSPhotoLibraryUsageDescription</key>
-	  <string>To use that feature the app needs access to your photo library.</string>
+	<string>To use that feature the app needs access to your photo library.</string>
     <key>NSCameraUsageDescription</key>
     <string>The camera can be used to open apps by scanning a QR code.</string>
     <key>NSFaceIDUsageDescription</key>
