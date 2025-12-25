@@ -12,6 +12,7 @@
 ![Studio Pro 10.19 and above](https://img.shields.io/badge/Studio_Pro-10.19_and_above-blue)
 
 ---
+tytyt
 
 Native Template is the starting point for any Mendix Native App project.
 
