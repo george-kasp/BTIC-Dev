@@ -13,13 +13,17 @@ import org.devio.rn.splashscreen.SplashScreen;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
 
 import java.util.List;
-
+import com.google.firebase.crashlytics.FirebaseCrashlytics; 
 public class MainApplication extends MendixReactApplication {
     @Override
     public boolean getUseDeveloperSupport() {
         return false;
     }
-
+   @Override
+    public void onCreate() {
+        super.onCreate();
+        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(true);
+    }
     @Override
     public List<ReactPackage> getPackages() {
         List<ReactPackage> packages = new PackageList(this).getPackages();
