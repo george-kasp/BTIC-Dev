@@ -38,8 +38,6 @@
       <key>NSAllowsLocalNetworking</key>
       <false/>
     </dict>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>To use that feature, the app needs access to your photo library.</string>
     <key>NSCameraUsageDescription</key>
     <string>The camera can be used to open apps by scanning a QR code.</string>
     <key>NSFaceIDUsageDescription</key>
@@ -50,6 +48,8 @@
     <string>To use that feature, the app needs access to your location.</string>
     <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
     <string>To use that feature, the app needs access to your location.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>To use that feature, the app needs access to your photo library.</string>
     <key>Runtime url</key>
     <string>$(RUNTIME_URL)</string>
     <key>TargetName</key>
@@ -95,6 +95,19 @@
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>bticnew</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>bticnew</string>
+        </array>
+      </dict>
+    </array>
     <key>FirebaseMessagingAutoInitEnabled</key>
     <true/>
     <key>FirebaseAppDelegateProxyEnabled</key>

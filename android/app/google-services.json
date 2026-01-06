@@ -23,25 +23,6 @@
           "other_platform_oauth_client": []
         }
       }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:847496760814:android:39cfc48ee8f447ea93d2ff",
-        "android_client_info": {
-          "package_name": "com.btic.df3.dev.developerapp"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBjtAtbNARcgxzJdHKsYbA8w581jzv-Qm0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
     }
   ],
   "configuration_version": "1"
