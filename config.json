@@ -22,12 +22,6 @@
             "required": false
         },
         {
-            "title": "Background Location",
-            "name": "android.permission.ACCESS_BACKGROUND_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
             "title": "Location - When In Use Usage",
             "name": "NSLocationWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
@@ -81,15 +75,15 @@
             "required": false
         },
         {
-            "title": "Photo Library Add Usage",
-            "name": "NSPhotoLibraryAddUsageDescription",
+            "title": "Photo Library Usage",
+            "name": "NSPhotoLibraryUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
             "platform": "ios",
             "required": false
         },
         {
-            "title": "Photo Library Usage",
-            "name": "NSPhotoLibraryUsageDescription",
+            "title": "Photo Library Add Usage",
+            "name": "NSPhotoLibraryAddUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
             "platform": "ios",
             "required": false
@@ -97,8 +91,8 @@
     ],
     "capabilities": {
         "deepLink": {
-            "value": "bticnew",
-            "enabled": true,
+            "value": "",
+            "enabled": false,
             "android": {
                 "webLinks": [
                     {
@@ -138,7 +132,7 @@
         }
     },
     "appVersion": "1.1.1",
-    "buildNumber": 100,
+    "buildNumber": 101,
     "runtimeUrl": "https://boubyantakaful-development.apps.me-1a.mendixcloud.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false

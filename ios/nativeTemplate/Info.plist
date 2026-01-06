@@ -26,7 +26,7 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>100</string>
+    <string>101</string>
     <key>GoogleMapsApiKey</key>
     <string/>
     <key>LSRequiresIPhoneOS</key>
@@ -95,19 +95,6 @@
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
-    <key>CFBundleURLTypes</key>
-    <array>
-      <dict>
-        <key>CFBundleTypeRole</key>
-        <string>Editor</string>
-        <key>CFBundleURLName</key>
-        <string>bticnew</string>
-        <key>CFBundleURLSchemes</key>
-        <array>
-          <string>bticnew</string>
-        </array>
-      </dict>
-    </array>
     <key>FirebaseMessagingAutoInitEnabled</key>
     <true/>
     <key>FirebaseAppDelegateProxyEnabled</key>
