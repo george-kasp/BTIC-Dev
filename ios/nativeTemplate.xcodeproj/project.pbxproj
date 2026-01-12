@@ -48,18 +48,18 @@
 		EB59215B23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		EB59215C23BFA1F5001D6155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB59215A23BFA1F5001D6155 /* main.m */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
-		137B2FEB046B4736A018CB3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDA6ECBD1944E19FDAECC7 /* GoogleService-Info.plist */; };
-		03D6BA70A64F4194B4C76B4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DCDA6ECBD1944E19FDAECC7 /* GoogleService-Info.plist */; };
-		9615988EB8B9417B823F9390 /* TheSansArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BB7AE9DBD44549C58DF7F /* TheSansArabic-Bold.otf */; };
-		78AB10F50D224A34AEC16756 /* TheSansArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B0BB7AE9DBD44549C58DF7F /* TheSansArabic-Bold.otf */; };
-		D1F660BA1288412690359311 /* TheSansArabic-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6386D6D496B46258D5BB9A8 /* TheSansArabic-ExtraBold.otf */; };
-		939305968CDA46AD8AC13E7A /* TheSansArabic-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A6386D6D496B46258D5BB9A8 /* TheSansArabic-ExtraBold.otf */; };
-		38713C6830934DC0998FE6B2 /* TheSansArabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 12F72E7BB80644E1B574A010 /* TheSansArabic-Light.otf */; };
-		371B04F6E8D64B1D97801A2A /* TheSansArabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 12F72E7BB80644E1B574A010 /* TheSansArabic-Light.otf */; };
-		D1265FA55F684E248B3552BA /* TheSansArabic-Plain.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94702C4CB224C36998C2C1C /* TheSansArabic-Plain.otf */; };
-		B6ADA151EF624D79ABB85BB4 /* TheSansArabic-Plain.otf in Resources */ = {isa = PBXBuildFile; fileRef = F94702C4CB224C36998C2C1C /* TheSansArabic-Plain.otf */; };
-		801C59F6D6AA458591F8855F /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A281ED2375947D2BC4784F5 /* native_dependencies.json */; };
-		52C5DBA22A274A67AC956C66 /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A281ED2375947D2BC4784F5 /* native_dependencies.json */; };
+		DFB9A3D322F640F29578647B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 622A1E75D4024226AA5B273D /* GoogleService-Info.plist */; };
+		6E3ADCC1F79F47C6BEEE4345 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 622A1E75D4024226AA5B273D /* GoogleService-Info.plist */; };
+		44370C6578EF4FAE88045E20 /* TheSansArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE21B98D476E406882BB5AF7 /* TheSansArabic-Bold.otf */; };
+		2E5C1D0D39F443DAB51A8B39 /* TheSansArabic-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BE21B98D476E406882BB5AF7 /* TheSansArabic-Bold.otf */; };
+		5A4A6689384D4C6EA77594F0 /* TheSansArabic-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B18BA0DDEF29402481D301D7 /* TheSansArabic-ExtraBold.otf */; };
+		94E67605BB7F4B78AEE51CF3 /* TheSansArabic-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B18BA0DDEF29402481D301D7 /* TheSansArabic-ExtraBold.otf */; };
+		D74C8525DB3747A986432B8E /* TheSansArabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716B7A0B0B6442E1A0AD7C4E /* TheSansArabic-Light.otf */; };
+		C51E9EAD6807484484BA2F99 /* TheSansArabic-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 716B7A0B0B6442E1A0AD7C4E /* TheSansArabic-Light.otf */; };
+		1C304606921A48909D2085B2 /* TheSansArabic-Plain.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2D84737ED734A6BAA31B054 /* TheSansArabic-Plain.otf */; };
+		7D0975D69BF1487184BBCD90 /* TheSansArabic-Plain.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2D84737ED734A6BAA31B054 /* TheSansArabic-Plain.otf */; };
+		840AFDDA6076477283379D9E /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 784EDEEC3EAC4ACEA776AB20 /* native_dependencies.json */; };
+		4F547A14BC864DC58A456EEB /* native_dependencies.json in Resources */ = {isa = PBXBuildFile; fileRef = 784EDEEC3EAC4ACEA776AB20 /* native_dependencies.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,12 +117,12 @@
 		EBC80A6022DF4205007E5F3D /* config.debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.debug.xcconfig; sourceTree = "<group>"; };
 		EBC80A6122DF42DF007E5F3D /* config.release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.release.xcconfig; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		7DCDA6ECBD1944E19FDAECC7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
-		4B0BB7AE9DBD44549C58DF7F /* TheSansArabic-Bold.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Bold.otf"; path = "TheSansArabic-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A6386D6D496B46258D5BB9A8 /* TheSansArabic-ExtraBold.otf */ = {isa = PBXFileReference; name = "TheSansArabic-ExtraBold.otf"; path = "TheSansArabic-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		12F72E7BB80644E1B574A010 /* TheSansArabic-Light.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Light.otf"; path = "TheSansArabic-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F94702C4CB224C36998C2C1C /* TheSansArabic-Plain.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Plain.otf"; path = "TheSansArabic-Plain.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7A281ED2375947D2BC4784F5 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		622A1E75D4024226AA5B273D /* GoogleService-Info.plist */ = {isa = PBXFileReference; name = "GoogleService-Info.plist"; path = "GoogleService-Info.plist"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.plist.xml; explicitFileType = undefined; includeInIndex = 0; };
+		BE21B98D476E406882BB5AF7 /* TheSansArabic-Bold.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Bold.otf"; path = "TheSansArabic-Bold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B18BA0DDEF29402481D301D7 /* TheSansArabic-ExtraBold.otf */ = {isa = PBXFileReference; name = "TheSansArabic-ExtraBold.otf"; path = "TheSansArabic-ExtraBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		716B7A0B0B6442E1A0AD7C4E /* TheSansArabic-Light.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Light.otf"; path = "TheSansArabic-Light.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2D84737ED734A6BAA31B054 /* TheSansArabic-Plain.otf */ = {isa = PBXFileReference; name = "TheSansArabic-Plain.otf"; path = "TheSansArabic-Plain.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		784EDEEC3EAC4ACEA776AB20 /* native_dependencies.json */ = {isa = PBXFileReference; name = "native_dependencies.json"; path = "native_dependencies.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +169,8 @@
 				1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */,
 				2C887FD924B88A0E0003DC53 /* LaunchScreen.storyboard */,
 				2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */,
-				7DCDA6ECBD1944E19FDAECC7 /* GoogleService-Info.plist */,
-				7A281ED2375947D2BC4784F5 /* native_dependencies.json */,
+				622A1E75D4024226AA5B273D /* GoogleService-Info.plist */,
+				784EDEEC3EAC4ACEA776AB20 /* native_dependencies.json */,
 			);
 			name = NativeTemplate;
 			sourceTree = "<group>";
@@ -288,10 +288,10 @@
 			isa = PBXGroup;
 			children = (
 				EB55620B22E0755000E19C26 /* glyphicons-halflings-regular.ttf */,
-				4B0BB7AE9DBD44549C58DF7F /* TheSansArabic-Bold.otf */,
-				A6386D6D496B46258D5BB9A8 /* TheSansArabic-ExtraBold.otf */,
-				12F72E7BB80644E1B574A010 /* TheSansArabic-Light.otf */,
-				F94702C4CB224C36998C2C1C /* TheSansArabic-Plain.otf */,
+				BE21B98D476E406882BB5AF7 /* TheSansArabic-Bold.otf */,
+				B18BA0DDEF29402481D301D7 /* TheSansArabic-ExtraBold.otf */,
+				716B7A0B0B6442E1A0AD7C4E /* TheSansArabic-Light.otf */,
+				E2D84737ED734A6BAA31B054 /* TheSansArabic-Plain.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -400,12 +400,12 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */,
 				1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */,
-				137B2FEB046B4736A018CB3A /* GoogleService-Info.plist in Resources */,
-				9615988EB8B9417B823F9390 /* TheSansArabic-Bold.otf in Resources */,
-				D1F660BA1288412690359311 /* TheSansArabic-ExtraBold.otf in Resources */,
-				38713C6830934DC0998FE6B2 /* TheSansArabic-Light.otf in Resources */,
-				D1265FA55F684E248B3552BA /* TheSansArabic-Plain.otf in Resources */,
-				801C59F6D6AA458591F8855F /* native_dependencies.json in Resources */,
+				DFB9A3D322F640F29578647B /* GoogleService-Info.plist in Resources */,
+				44370C6578EF4FAE88045E20 /* TheSansArabic-Bold.otf in Resources */,
+				5A4A6689384D4C6EA77594F0 /* TheSansArabic-ExtraBold.otf in Resources */,
+				D74C8525DB3747A986432B8E /* TheSansArabic-Light.otf in Resources */,
+				1C304606921A48909D2085B2 /* TheSansArabic-Plain.otf in Resources */,
+				840AFDDA6076477283379D9E /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,12 +423,12 @@
 				1A0B3AEA2398185600388BF7 /* config.debug.xcconfig in Resources */,
 				1A0B3A9C2397DA2300388BF7 /* LaunchApp.storyboard in Resources */,
 				572D87C4D9F46E7564D1FE09 /* PrivacyInfo.xcprivacy in Resources */,
-				03D6BA70A64F4194B4C76B4B /* GoogleService-Info.plist in Resources */,
-				78AB10F50D224A34AEC16756 /* TheSansArabic-Bold.otf in Resources */,
-				939305968CDA46AD8AC13E7A /* TheSansArabic-ExtraBold.otf in Resources */,
-				371B04F6E8D64B1D97801A2A /* TheSansArabic-Light.otf in Resources */,
-				B6ADA151EF624D79ABB85BB4 /* TheSansArabic-Plain.otf in Resources */,
-				52C5DBA22A274A67AC956C66 /* native_dependencies.json in Resources */,
+				6E3ADCC1F79F47C6BEEE4345 /* GoogleService-Info.plist in Resources */,
+				2E5C1D0D39F443DAB51A8B39 /* TheSansArabic-Bold.otf in Resources */,
+				94E67605BB7F4B78AEE51CF3 /* TheSansArabic-ExtraBold.otf in Resources */,
+				C51E9EAD6807484484BA2F99 /* TheSansArabic-Light.otf in Resources */,
+				7D0975D69BF1487184BBCD90 /* TheSansArabic-Plain.otf in Resources */,
+				4F547A14BC864DC58A456EEB /* native_dependencies.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
