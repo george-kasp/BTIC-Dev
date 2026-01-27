@@ -138,8 +138,8 @@
         }
     },
     "appVersion": "1.1.1",
-    "buildNumber": 119,
-    "runtimeUrl": "https://mxdev.boubyantakaful.com/",
+    "buildNumber": 120,
+    "runtimeUrl": "https://boubyantakaful-development.apps.me-1a.mendixcloud.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
