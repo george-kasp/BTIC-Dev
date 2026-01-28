@@ -95,6 +95,19 @@
     </array>
     <key>UIViewControllerBasedStatusBarAppearance</key>
     <false/>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleTypeRole</key>
+        <string>Editor</string>
+        <key>CFBundleURLName</key>
+        <string>bticnew</string>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>bticnew</string>
+        </array>
+      </dict>
+    </array>
     <key>FirebaseMessagingAutoInitEnabled</key>
     <true/>
     <key>FirebaseAppDelegateProxyEnabled</key>
