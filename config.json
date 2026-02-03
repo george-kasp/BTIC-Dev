@@ -128,11 +128,11 @@
             "enabled": false
         },
         "nativeOTA": {
-            "enabled": true
+            "enabled": false
         }
     },
     "appVersion": "1.1.1",
-    "buildNumber": 130,
+    "buildNumber": 131,
     "runtimeUrl": "https://mxdev.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
