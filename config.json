@@ -131,8 +131,8 @@
             "enabled": false
         }
     },
-    "appVersion": "1.1.1",
-    "buildNumber": 153,
+    "appVersion": "2.0.0",
+    "buildNumber": 1,
     "runtimeUrl": "https://mxdev.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
