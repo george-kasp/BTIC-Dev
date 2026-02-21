@@ -12,6 +12,7 @@
     "react-native-image-crop-picker": "0.51.1",
     "react-native-share": "11.0.3",
     "@react-native-community/netinfo": "11.4.1",
+    "jail-monkey": "2.6.0",
     "@react-native-firebase/analytics": "20.1.0",
     "react-native-restart": "^0.0.27",
     "react-native-touch-id": "4.4.1"
