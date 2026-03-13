@@ -3,7 +3,7 @@ BUNDLE_IDENTIFIER = com.btic.df3.dev
 
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
-RUNTIME_URL = https:\/\/mxdev.boubyantakaful.com/
+RUNTIME_URL = https:\/\/boubyantakaful2-development.apps.eu-1c.mendixcloud.com/
 
 PRODUCT_NAME = App
 HERMES_ENABLED = YES
