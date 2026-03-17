@@ -131,9 +131,9 @@
             "enabled": false
         }
     },
-    "appVersion": "12.0.0",
-    "buildNumber": 1,
-    "runtimeUrl": "https://boubyantakaful2-development.apps.eu-1c.mendixcloud.com/",
+    "appVersion": "13.0.0",
+    "buildNumber": 2,
+    "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
