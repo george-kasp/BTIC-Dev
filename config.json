@@ -132,8 +132,8 @@
         }
     },
     "appVersion": "15.0.0",
-    "buildNumber": 2,
-    "runtimeUrl": "https://boubyantakafulportal-development.apps.eu-1c.mendixcloud.com/",
+    "buildNumber": 3,
+    "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
