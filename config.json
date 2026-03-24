@@ -131,7 +131,7 @@
             "enabled": false
         }
     },
-    "appVersion": "17.0.0",
+    "appVersion": "18.0.0",
     "buildNumber": 1,
     "runtimeUrl": "https://boubyantakafulportal-development.apps.eu-1c.mendixcloud.com/",
     "hermesEnabled": true,
