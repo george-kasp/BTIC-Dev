@@ -132,7 +132,7 @@
         }
     },
     "appVersion": "19.0.0",
-    "buildNumber": 4,
+    "buildNumber": 5,
     "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
