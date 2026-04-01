@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.btic.df3.dev",
-    "appName": "DF3",
+    "appIdentifier": "com.boubyan.takaful",
+    "appName": "Boubyan Takaful Insurance",
     "bundleName": {
         "main": "App",
         "dev": "AppDev"
@@ -132,7 +132,7 @@
         }
     },
     "appVersion": "20.0.0",
-    "buildNumber": 1,
+    "buildNumber": 2,
     "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
