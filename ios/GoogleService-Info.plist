@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBMSQXzbD8WKEEOCQK66AU-VrB0g71K2to</string>
+	<string>AIzaSyDom1AgQmjewYOWF61FnJls7Wi2UTnZDnU</string>
 	<key>GCM_SENDER_ID</key>
-	<string>44812113870</string>
+	<string>847496760814</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.boubyan.takaful</string>
+	<string>com.btic.df3.dev</string>
 	<key>PROJECT_ID</key>
-	<string>boubyantakaful---ga4</string>
+	<string>df3dev</string>
 	<key>STORAGE_BUCKET</key>
-	<string>boubyantakaful---ga4.firebasestorage.app</string>
+	<string>df3dev.firebasestorage.app</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:44812113870:ios:1c7072f42a143a3ef8bd9f</string>
+	<string>1:847496760814:ios:ce54fb33bd6c33d993d2ff</string>
 </dict>
 </plist>
