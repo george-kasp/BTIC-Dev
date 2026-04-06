@@ -1,9 +1,9 @@
-BUNDLE_DISPLAY_NAME = DF3
-BUNDLE_IDENTIFIER = com.btic.df3.dev
+BUNDLE_DISPLAY_NAME = Boubyan Takaful Insurance
+BUNDLE_IDENTIFIER = com.boubyan.takaful
 
 PRODUCT_BUNDLE_IDENTIFIER = $(BUNDLE_IDENTIFIER)$(BUNDLE_IDENTIFIER_APPEND)
 
-RUNTIME_URL = https:\/\/devportal.boubyantakaful.com/
+RUNTIME_URL = https:\/\/devportal.boubyantakaful.com\/
 
 PRODUCT_NAME = App
 HERMES_ENABLED = YES

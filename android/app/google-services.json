@@ -1,40 +1,21 @@
 {
   "project_info": {
-    "project_number": "847496760814",
-    "project_id": "df3dev",
-    "storage_bucket": "df3dev.firebasestorage.app"
+    "project_number": "44812113870",
+    "project_id": "boubyantakaful---ga4",
+    "storage_bucket": "boubyantakaful---ga4.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:847496760814:android:9eb580a3e05a304793d2ff",
+        "mobilesdk_app_id": "1:44812113870:android:598da8a4cf32fe2cf8bd9f",
         "android_client_info": {
-          "package_name": "com.btic.df3.dev"
+          "package_name": "com.boubyan.takaful"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBjtAtbNARcgxzJdHKsYbA8w581jzv-Qm0"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:847496760814:android:39cfc48ee8f447ea93d2ff",
-        "android_client_info": {
-          "package_name": "com.btic.df3.dev.developerapp"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyBjtAtbNARcgxzJdHKsYbA8w581jzv-Qm0"
+          "current_key": "AIzaSyAsp0g1gh_51IUKXRVkBioYlH3Cr7JU0ng"
         }
       ],
       "services": {
