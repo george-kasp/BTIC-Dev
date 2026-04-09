@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.btic.df3.dev",
+  "applicationId": "com.dps.btickw",
   "variantName": "appstoreRelease",
   "elements": [
     {
@@ -12,7 +12,7 @@
       "filters": [],
       "attributes": [],
       "versionCode": 1,
-      "versionName": "20.0.0",
+      "versionName": "23.0.0",
       "outputFile": "app-appstore-release.apk"
     }
   ],

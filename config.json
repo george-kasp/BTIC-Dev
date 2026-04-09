@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.boubyan.takaful",
-    "appName": "Boubyan Takaful Insurance",
+    "appIdentifier": "com.btic.df3.dev",
+    "appName": "DF3",
     "bundleName": {
         "main": "App",
         "dev": "AppDev"
@@ -103,8 +103,8 @@
             }
         },
         "maps": {
-            "value": "",
-            "enabled": false
+            "value": "AIzaSyCVlTRRYoTFuHZVNwl3k3vSn0BctRSXHMw",
+            "enabled": true
         },
         "mapsIos": {
             "enabled": false
@@ -131,7 +131,7 @@
             "enabled": false
         }
     },
-    "appVersion": "23.0.0",
+    "appVersion": "24.0.0",
     "buildNumber": 1,
     "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,

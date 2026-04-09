@@ -63,12 +63,12 @@ android {
 
     namespace "com.mendix.nativetemplate"
     defaultConfig {
-        applicationId "com.boubyan.takaful"
+        applicationId "com.btic.df3.dev"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
         versionCode 1
-        versionName "23.0.0"
+        versionName "24.0.0"
         testBuildType System.getProperty("testBuildType", "debug")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         resValue "string", "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())

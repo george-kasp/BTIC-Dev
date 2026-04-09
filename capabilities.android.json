@@ -6,7 +6,7 @@
     "localNotifications": true,
     "pushNotifications": true,
     "appCenterOTA": false,
-    "maps": false,
+    "maps": true,
     "mapsIos": false,
     "nativeOTA": false
 }
