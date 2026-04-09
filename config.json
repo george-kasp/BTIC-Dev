@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "com.btic.df3.dev",
-    "appName": "DF3",
+    "appIdentifier": "com.boubyan.takaful",
+    "appName": "Boubyan Takaful Insurance",
     "bundleName": {
         "main": "App",
         "dev": "AppDev"
@@ -26,14 +26,14 @@
             "name": "NSLocationWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": true
+            "required": false
         },
         {
             "title": "Location - Always And When in Use Usage",
             "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": true
+            "required": false
         },
         {
             "title": "Camera Usage",
@@ -59,7 +59,7 @@
             "name": "NSLocationAlwaysUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": true
+            "required": false
         },
         {
             "title": "Use Biometric",
@@ -86,6 +86,18 @@
             "name": "NSPhotoLibraryAddUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
             "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Fine Location",
+            "name": "android.permission.ACCESS_FINE_LOCATION",
+            "platform": "android",
+            "required": false
+        },
+        {
+            "title": "Coarse Location",
+            "name": "android.permission.ACCESS_COARSE_LOCATION",
+            "platform": "android",
             "required": false
         }
     ],
@@ -131,9 +143,9 @@
             "enabled": false
         }
     },
-    "appVersion": "24.0.0",
-    "buildNumber": 1,
-    "runtimeUrl": "https://devportal.boubyantakaful.com/",
+    "appVersion": "7.0.0",
+    "buildNumber": 80,
+    "runtimeUrl": "https://portal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
