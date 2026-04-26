@@ -26,14 +26,14 @@
             "name": "NSLocationWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": false
+            "required": true
         },
         {
             "title": "Location - Always And When in Use Usage",
             "name": "NSLocationAlwaysAndWhenInUseUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": false
+            "required": true
         },
         {
             "title": "Camera Usage",
@@ -59,7 +59,7 @@
             "name": "NSLocationAlwaysUsageDescription",
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
-            "required": false
+            "required": true
         },
         {
             "title": "Use Biometric",
@@ -86,18 +86,6 @@
             "name": "NSPhotoLibraryAddUsageDescription",
             "purpose": "To use that feature, the app needs access to your photo library.",
             "platform": "ios",
-            "required": false
-        },
-        {
-            "title": "Fine Location",
-            "name": "android.permission.ACCESS_FINE_LOCATION",
-            "platform": "android",
-            "required": false
-        },
-        {
-            "title": "Coarse Location",
-            "name": "android.permission.ACCESS_COARSE_LOCATION",
-            "platform": "android",
             "required": false
         }
     ],
@@ -145,7 +133,7 @@
     },
     "appVersion": "7.0.0",
     "buildNumber": 89,
-    "runtimeUrl": "https://portal.boubyantakaful.com/",
+    "runtimeUrl": "https://devportal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
