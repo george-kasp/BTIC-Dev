@@ -38,6 +38,8 @@ To deduct which version of Native Template fits to your current Mendix Studio Pr
 Example usage:
 
 > **If you are using 10.18.x version of Studio Pro. Then use 11.x.x of Native Template.**
+>
+> v7.0.0_89
 
 ### Developer branches
 
