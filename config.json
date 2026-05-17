@@ -143,8 +143,8 @@
             "enabled": false
         }
     },
-    "appVersion": "7.0.2",
-    "buildNumber": 93,
+    "appVersion": "7.0.3",
+    "buildNumber": 100,
     "runtimeUrl": "https://portal.boubyantakaful.com/",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
