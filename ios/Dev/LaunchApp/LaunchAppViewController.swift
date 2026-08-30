@@ -1,5 +1,4 @@
 import UIKit
-import MendixNative
 
 class LaunchAppViewController: UIViewController, QRViewDelegate {
     @IBOutlet weak var textField: UITextField!
@@ -19,9 +18,9 @@ class LaunchAppViewController: UIViewController, QRViewDelegate {
     func launchApp(_ url: String) {
         uiState = .idle
         qrView.stopScanning()
-        AppPreferences.appUrl = url
-        AppPreferences.remoteDebuggingEnabled = false
-        AppPreferences.devModeEnabled = enableDevModeSwitch.isOn
+        AppPreferences.setAppUrl(url)
+        AppPreferences.remoteDebugging(false)
+        AppPreferences.devMode(enableDevModeSwitch.isOn)
         self.performSegue(withIdentifier: "MendixApp", sender: nil)
     }
 
@@ -83,8 +82,8 @@ class LaunchAppViewController: UIViewController, QRViewDelegate {
         super.viewWillAppear(animated)
         uiState = .idle
         qrView.startScanning()
-        textField.text = AppPreferences.safeAppUrl
-        enableDevModeSwitch.setOn(AppPreferences.devModeEnabled, animated: false)
+        textField.text = AppPreferences.getAppUrl()
+        enableDevModeSwitch.setOn(AppPreferences.devModeEnabled(), animated: false)
         registerNotificationObservers()
     }
 
@@ -101,7 +100,7 @@ class LaunchAppViewController: UIViewController, QRViewDelegate {
 
         textField.layer.cornerRadius = 30
         if let placeHolderText = textField.placeholder {
-          textField.attributedPlaceholder = NSAttributedString(string: placeHolderText, attributes: [NSAttributedString.Key.foregroundColor: UIColor.lightGray])
+          textField.attributedPlaceholder = NSAttributedString(string: placeHolderText, attributes: [NSAttributedStringKey.foregroundColor: UIColor.lightGray])
         }
     }
 
@@ -116,25 +115,16 @@ class LaunchAppViewController: UIViewController, QRViewDelegate {
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let devModeEnabled = AppPreferences.devModeEnabled()
         let url = AppUrl.forBundle(
-            AppPreferences.safeAppUrl,
-            port: AppPreferences.remoteDebuggingPackagerPort,
-            isDebuggingRemotely: AppPreferences.remoteDebuggingEnabled,
-            isDevModeEnabled: AppPreferences.devModeEnabled
-        )
+            AppPreferences.getAppUrl(),
+            port: AppPreferences.getRemoteDebuggingPackagerPort(),
+            isDebuggingRemotely: AppPreferences.remoteDebuggingEnabled(),
+            isDevModeEnabled: devModeEnabled)
         
-        let mxApp = MendixApp.init(
-            identifier: nil,
-            bundleUrl: url,
-            runtimeUrl: AppUrl.forRuntime(AppPreferences.safeAppUrl),
-            warningsFilter: AppPreferences.devModeEnabled ? WarningsFilter.partial : WarningsFilter.none,
-            isDeveloperApp: true,
-            clearDataAtLaunch: clearDataSwitch.isOn,
-            splashScreenPresenter: SplashScreenPresenter(),
-            reactLoading: UIStoryboard.launchScreen,
-            enableThreeFingerGestures: false
-        )
-        ReactNative.shared.setup(mxApp)
+        let runtimeUrl: URL = AppUrl.forRuntime(AppPreferences.getAppUrl())!
+
+        ReactNative.instance.setup(MendixApp.init(nil, bundleUrl: url!, runtimeUrl: runtimeUrl, warningsFilter: devModeEnabled ? WarningsFilter.partial : WarningsFilter.none, isDeveloperApp: true, clearDataAtLaunch: clearDataSwitch.isOn, reactLoading: UIStoryboard(name: "LaunchScreen", bundle: nil)))
     }
 }
 
@@ -163,22 +153,22 @@ extension LaunchAppViewController {
     }
 
     private func registerNotificationObservers() {
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: UIResponder.keyboardWillHideNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(deviceRotated), name: UIDevice.orientationDidChangeNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillHide), name: .UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(deviceRotated), name: .UIDeviceOrientationDidChange, object: nil)
     }
 
     private func unregisterNotificationObservers() {
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIResponder.keyboardWillHideNotification, object: nil)
-        NotificationCenter.default.removeObserver(self, name: UIDevice.orientationDidChangeNotification, object: nil)
+        NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.removeObserver(self, name: .UIKeyboardWillHide, object: nil)
+        NotificationCenter.default.removeObserver(self, name: .UIDeviceOrientationDidChange, object: self)
     }
 
     @objc func keyboardWillShow(_ notification: Notification) {
         keyboardShowTask?.cancel()
         keyboardShowTask = DispatchWorkItem {
-            if let keyboardRect = notification.userInfo?[UIResponder.keyboardFrameEndUserInfoKey] as? CGRect {
-                let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double
+            if let keyboardRect = notification.userInfo?[UIKeyboardFrameEndUserInfoKey] as? CGRect {
+                let duration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? Double
                 self.view.frame.size.height = UIScreen.main.bounds.height - keyboardRect.height
                 self.qrView.stopScanning()
                 self.qrView.layer.opacity = 0
@@ -191,7 +181,7 @@ extension LaunchAppViewController {
     }
 
     @objc func keyboardWillHide(_ notification: Notification) {
-        let duration = notification.userInfo?[UIResponder.keyboardAnimationDurationUserInfoKey] as? Double
+        let duration = notification.userInfo?[UIKeyboardAnimationDurationUserInfoKey] as? Double
         view.frame.size.height = UIScreen.main.bounds.height
         self.qrView.startScanning()
         self.qrView.layer.opacity = 1

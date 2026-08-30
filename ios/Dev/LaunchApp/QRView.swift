@@ -2,7 +2,7 @@ import Foundation
 import AVFoundation
 import UIKit
 
-@objc protocol QRViewDelegate: AnyObject {
+@objc protocol QRViewDelegate: class {
   @objc optional func qrScanningFailed()
   @objc optional func qrScanningSucceeded(_ str: String?)
   @objc optional func qrScanningStopped()

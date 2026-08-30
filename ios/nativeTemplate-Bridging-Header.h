@@ -2,6 +2,7 @@
 //  Use this file to import your target's public headers that you would like to expose to Swift.
 //
 
-#import "RNBootSplash.h"
-#import "IQKeyboardManager.h"
+#import "AppDelegate.h"
+#import <MendixNative.h>
+#import "SplashScreenPresenter.h"
 
