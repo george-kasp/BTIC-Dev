@@ -21,7 +21,7 @@
     "@react-native-documents/picker": "12.0.2",
     "@react-native-firebase/analytics": "20.1.0",
     "@react-native-firebase/app": "20.1.0",
-    "@react-native-firebase/crashlytics": "10.1.0",
+    "@react-native-firebase/crashlytics": "20.1.0",
     "@react-native-firebase/messaging": "20.1.0",
     "@react-native-picker/picker": "2.11.4",
     "@react-native-vector-icons/common": "12.4.2",
