@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "44812113870",
+    "project_id": "boubyantakaful---ga4",
+    "storage_bucket": "boubyantakaful---ga4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:44812113870:android:598da8a4cf32fe2cf8bd9f",
+        "android_client_info": {
+          "package_name": "com.dps.btickw"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsp0g1gh_51IUKXRVkBioYlH3Cr7JU0ng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
